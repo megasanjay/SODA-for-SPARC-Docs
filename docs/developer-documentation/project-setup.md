@@ -34,16 +34,6 @@ $ brew install gcc
 $ brew cask install emacs
 ```
 
-#### Linux
-
-- [Install GCC](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/) and [Emacs](https://www.gnu.org/software/emacs/) on Ubuntu
-
-```
-$ sudo apt update
-$ sudo apt install build-essential
-$ sudo apt-get install emacs
-```
-
 ## Setting up your environment
 
 We use Anaconda to keep track of the high level dependencies required to create this application. The environment files required to generate the dev environment have been provided with the repository in the `dev` folder.
@@ -98,23 +88,6 @@ You can now launch the application with the following command for all Operating 
 npm start
 ```
 
-:::info For Windows
-
-For most instance just running `npm start` should be fine. However, you might sometimes need to run these additional instructions below to set up your environment.
-
-```bash
-# Delete 'node_modules' folder and package-lock.json (if present)
-npm install -g node-gyp
-npm config set python \path\to\python2.exe
-npm config set msvs_version 2017
-npm install
-"./node_modules/.bin/"electron-rebuild .
-npm start
-```
-
-If `electron-rebuild .` gives you an error, try deleting the `.electron-gyp` folder from your user profile and try again.
-:::
-
 ## Installing packages
 
 ### Python
@@ -138,7 +111,7 @@ yarn add <package-name>
 
 The minimum required programming language and compiler versions are provided below. Please be aware that this is subject to change.
 
-- Python: 3.6
+- Python: 3.9
 - Nodejs: ^10.13.0
 
 import PageFeedback from '@site/src/components/PageFeedback';
