@@ -5,7 +5,6 @@ title: Building the application
 image: https://docs.sodaforsparc.io/thumbnails/developer-documentation/building-the-application.png
 ---
 
-
 ## Building the Python server
 
 ```shell title="For Windows/OS X/Linux"
