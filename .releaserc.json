@@ -14,7 +14,7 @@
       "prerelease": true
     }
   ],
-  "repositoryUrl": "https://github.com/fairdataihub/SODA-for-SPARC-Docs.git",
+  "repositoryUrl": "https://github.com/megasanjay/SODA-for-SPARC-Docs.git",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
