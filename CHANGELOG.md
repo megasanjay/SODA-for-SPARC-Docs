@@ -1,3 +1,17 @@
+# [10.1.0](https://github.com/megasanjay/SODA-for-SPARC-Docs/compare/v10.0.2...v10.1.0) (2022-08-22)
+
+
+### Bug Fixes
+
+* 🐛 display a reversed version of the array for the release action ([f36e875](https://github.com/megasanjay/SODA-for-SPARC-Docs/commit/f36e875cbd4c3ac816c7a10ec6dd0a5f1e2cfbb7))
+* 🐛 test release ([1086701](https://github.com/megasanjay/SODA-for-SPARC-Docs/commit/1086701905fa1e680662b672516a9d91670dcf82))
+* 🐛 test release ([e690703](https://github.com/megasanjay/SODA-for-SPARC-Docs/commit/e690703b2237081afa041761a3af952392fc5236))
+
+
+### Features
+
+* ✨ add docs and app version compatibility page ([47af51a](https://github.com/megasanjay/SODA-for-SPARC-Docs/commit/47af51aac00cea9d3e5fc074512797e40216cad7))
+
 ## [10.0.2](https://github.com/fairdataihub/SODA-for-SPARC-Docs/compare/v10.0.1...v10.0.2) (2022-08-19)
 
 ### Bug Fixes
