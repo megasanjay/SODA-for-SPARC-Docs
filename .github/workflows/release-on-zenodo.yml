@@ -21,9 +21,9 @@ jobs:
         with:
           github_token: ${{ secrets.BOT_ACTIONS }}
           zenodo_token: ${{ secrets.ZENODO_TOKEN }}
-          zenodo_deposition_id: 6407301
-          zenodo_publish: true
-          zenodo_sandbox: false
+          zenodo_deposition_id: 1091246
+          zenodo_publish: false
+          zenodo_sandbox: true
           committer_name: 'fairdataihub-bot'
           committer_email: 'fairdataihub@gmail.com'
           commit_message: 'chore: update ${file_name} for Zenodo release'
